@@ -60,7 +60,7 @@ Aplicación web de música construida con **Django**, **Python**, **HTML/CSS**, 
 - Animaciones suaves
 
 ---
-
+<!--
 # 📸 Capturas
 
 <div align="center">
@@ -74,7 +74,7 @@ Aplicación web de música construida con **Django**, **Python**, **HTML/CSS**, 
 | ![](https://placehold.co/600x350/111/FFF?text=Library) | ![](https://placehold.co/600x350/111/FFF?text=Search) |
 
 </div>
-
+-->
 ---
 
 # 🛠️ Tecnologías Utilizadas
@@ -100,61 +100,96 @@ music-streaming/
 ├── db.sqlite3
 ├── manage.py
 └── requirements.txt
-🚀 Instalación
-1️⃣ Clonar el repositorio
+```
+---
+
+# 🚀 Instalación
+
+## 1️⃣ Clonar el repositorio
+```
 git clone https://github.com/isairey/django-music-streaming.git
 cd django-music-streaming
-2️⃣ Crear entorno virtual
+```
+## 2️⃣ Crear entorno virtual
+```
 python -m venv venv
 Activar entorno virtual
 Windows
 venv\Scripts\activate
 Linux / macOS
 source venv/bin/activate
-3️⃣ Instalar dependencias
+```
+## 3️⃣ Instalar dependencias
+```
 pip install -r requirements.txt
-4️⃣ Ejecutar migraciones
+```
+## 4️⃣ Ejecutar migraciones
+```
 python manage.py migrate
-5️⃣ Crear superusuario
+```
+## 5️⃣ Crear superusuario
+```
 python manage.py createsuperuser
-6️⃣ Ejecutar servidor
+```
+## 6️⃣ Ejecutar servidor
+```
 python manage.py runserver
-🌐 Acceso
+```
+
+# 🌐 Acceso
 
 Abrir en el navegador:
-
+```
 http://127.0.0.1:8000
-
+```
 Panel administrativo:
-
+```
 http://127.0.0.1:8000/admin
-📊 Roadmap
- Sistema avanzado de playlists
- Descarga offline
- Recomendaciones inteligentes
- Integración con APIs musicales
- Chat entre usuarios
- Aplicación móvil
- Modo colaborativo
-🔒 Seguridad
-Protección CSRF
-Sistema de autenticación Django
-Validación de formularios
-Gestión segura de sesiones
-🤝 Contribuciones
+```
+
+---
+
+# 📊 Roadmap
+
+- Sistema avanzado de playlists
+- Descarga offline
+- Recomendaciones inteligentes
+- Integración con APIs musicales
+- Chat entre usuarios
+- Aplicación móvil
+- Modo colaborativo
+
+ ---
+ 
+# 🔒 Seguridad
+
+- Protección CSRF
+- Sistema de autenticación Django
+- Validación de formularios
+- Gestión segura de sesiones
+
+---
+
+# 🤝 Contribuciones
 
 Las contribuciones son bienvenidas 🚀
 
-Haz un Fork
-Crea una rama
-Realiza tus cambios
-Envía un Pull Request
-📄 Licencia
+- Haz un Fork
+- Crea una rama
+- Realiza tus cambios
+- Envía un Pull Request
+
+---
+
+# 📄 Licencia
 
 Este proyecto está bajo la licencia MIT.
 
-👨‍💻 Autor
-Isai Reyes
+---
+
+# 👨‍💻 Autor
+
+**Isai Reyes**
 
 Desarrollador Full Stack apasionado por el desarrollo web, streaming multimedia y software open source.
 
