@@ -107,8 +107,8 @@ music-streaming/
 
 ## 1️⃣ Clonar el repositorio
 ```
-git clone https://github.com/isairey/django-music-streaming.git
-cd django-music-streaming
+git clone https://github.com/isairey/AppStreamingDjango.git
+cd AppStreamingDjango
 ```
 ## 2️⃣ Crear entorno virtual
 ```
